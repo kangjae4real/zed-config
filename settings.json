@@ -15,20 +15,50 @@
     "theme": "Solarized Dark",
     "buffer_font_family": "JetBrains Mono",
     "buffer_font_size": 14,
-    "autosave": "on_window_change",
+    "autosave": "on_focus_change",
     "terminal": {
         "font_family": "JetBrains Mono",
         "font_size": 14
     },
     "language_overrides": {
         "JavaScript": {
-            "tab_size": 2
+            "tab_size": 2,
+            // NOTE: Install 'prettier' package on global
+            "format_on_save": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": [
+                        "--stdin-filepath",
+                        "{buffer_path}"
+                    ]
+                }
+            }
         },
         "TypeScript": {
-            "tab_size": 2
+            "tab_size": 2,
+            // NOTE: Install 'prettier' package on global
+            "format_on_save": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": [
+                        "--stdin-filepath",
+                        "{buffer_path}"
+                    ]
+                }
+            }
         },
         "TSX": {
-            "tab_size": 2
+            "tab_size": 2,
+            // NOTE: Install 'prettier' package on global
+            "format_on_save": {
+                "external": {
+                    "command": "prettier",
+                    "arguments": [
+                        "--stdin-filepath",
+                        "{buffer_path}"
+                    ]
+                }
+            }
         }
-    }
+    },
 }
