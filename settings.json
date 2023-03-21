@@ -1,0 +1,34 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+    "telemetry": {
+        "diagnostics": false,
+        "metrics": false
+    },
+    "base_keymap": "JetBrains",
+    "theme": "Solarized Dark",
+    "buffer_font_family": "JetBrains Mono",
+    "buffer_font_size": 14,
+    "autosave": "on_window_change",
+    "terminal": {
+        "font_family": "JetBrains Mono",
+        "font_size": 14
+    },
+    "language_overrides": {
+        "JavaScript": {
+            "tab_size": 2
+        },
+        "TypeScript": {
+            "tab_size": 2
+        },
+        "TSX": {
+            "tab_size": 2
+        }
+    }
+}
